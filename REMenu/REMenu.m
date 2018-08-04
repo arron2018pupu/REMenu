@@ -62,7 +62,8 @@
         
         _textOffset = CGSizeMake(0, 0);
         _subtitleTextOffset = CGSizeMake(0, 0);
-        _font = [UIFont boldSystemFontOfSize:21.0];
+        //_font = [UIFont boldSystemFontOfSize:21.0];
+        _font = [UIFont boldSystemFontOfSize:18.0];
         _subtitleFont = [UIFont systemFontOfSize:14.0];
         
         _backgroundAlpha = 1.0;

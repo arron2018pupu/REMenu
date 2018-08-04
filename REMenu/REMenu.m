@@ -78,9 +78,12 @@
         _textShadowOffset = CGSizeMake(0, -1.0);
         _textAlignment = NSTextAlignmentCenter;
         
-        _highlightedBackgroundColor = [UIColor colorWithRed:28/255.0 green:28/255.0 blue:27/255.0 alpha:1.0];
+        //_highlightedBackgroundColor = [UIColor colorWithRed:28/255.0 green:28/255.0 blue:27/255.0 alpha:1.0];
+        _highlightedBackgroundColor = [UIColor colorWithRed:183/255.0 green:62/255.0 blue:40/255.0 alpha:1.0];
         _highlightedSeparatorColor = [UIColor colorWithRed:28/255.0 green:28/255.0 blue:27/255.0 alpha:1.0];
-        _highlightedTextColor = [UIColor colorWithRed:128/255.0 green:126/255.0 blue:124/255.0 alpha:1.0];
+        //_highlightedTextColor = [UIColor colorWithRed:128/255.0 green:126/255.0 blue:124/255.0 alpha:1.0];
+        _highlightedTextColor = [UIColor colorWithRed:245/255.0 green:186/255.0 blue:186/255.0 alpha:0.5];
+        
         _highlightedTextShadowColor = [UIColor blackColor];
         _highlightedTextShadowOffset = CGSizeMake(0, -1.0);
         

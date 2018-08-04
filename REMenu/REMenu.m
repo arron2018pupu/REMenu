@@ -66,7 +66,8 @@
         _subtitleFont = [UIFont systemFontOfSize:14.0];
         
         _backgroundAlpha = 1.0;
-        _backgroundColor = [UIColor colorWithRed:53/255.0 green:53/255.0 blue:52/255.0 alpha:1.0];
+        //_backgroundColor = [UIColor colorWithRed:53/255.0 green:53/255.0 blue:52/255.0 alpha:1.0];
+        _backgroundColor = [UIColor colorWithRed:213/255.0 green:85/255.0 blue:61/255.0 alpha:1.0];
         _separatorColor = [UIColor colorWithPatternImage:self.separatorImage];
         _textColor = [UIColor colorWithRed:128/255.0 green:126/255.0 blue:124/255.0 alpha:1.0];
         _textShadowColor = [UIColor blackColor];

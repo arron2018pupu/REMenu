@@ -406,13 +406,16 @@
 
 - (UIImage *)separatorImage
 {
-    UIGraphicsBeginImageContext(CGSizeMake(1, 4.0));
+    //UIGraphicsBeginImageContext(CGSizeMake(1, 4.0));
+    UIGraphicsBeginImageContext(CGSizeMake(1, 1.0));
     CGContextRef context = UIGraphicsGetCurrentContext();
     UIGraphicsPushContext(context);
     CGContextSetFillColorWithColor(context, [UIColor colorWithRed:28/255.0 green:28/255.0 blue:27/255.0 alpha:1.0].CGColor);
-    CGContextFillRect(context, CGRectMake(0, 0, 1.0, 2.0));
+    //CGContextFillRect(context, CGRectMake(0, 0, 1.0, 2.0));
+    CGContextFillRect(context, CGRectMake(0, 0, 1.0, 1.0));
     CGContextSetFillColorWithColor(context, [UIColor colorWithRed:79/255.0 green:79/255.0 blue:77/255.0 alpha:1.0].CGColor);
-    CGContextFillRect(context, CGRectMake(0, 3.0, 1.0, 2.0));
+    //CGContextFillRect(context, CGRectMake(0, 3.0, 1.0, 2.0));
+    CGContextFillRect(context, CGRectMake(0, 3.0, 1.0, 1.0));
     UIGraphicsPopContext();
     UIImage *outputImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();

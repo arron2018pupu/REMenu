@@ -70,7 +70,8 @@
         //_backgroundColor = [UIColor colorWithRed:53/255.0 green:53/255.0 blue:52/255.0 alpha:1.0];
         _backgroundColor = [UIColor colorWithRed:213/255.0 green:85/255.0 blue:61/255.0 alpha:1.0];
         //_separatorColor = [UIColor colorWithPatternImage:self.separatorImage];
-        _separatorColor = [UIColor colorWithRed:255/255.0 green:255/255.0 blue:255/255.0 alpha:0.5];
+        //_separatorColor = [UIColor colorWithRed:255/255.0 green:255/255.0 blue:255/255.0 alpha:0.5];
+        _separatorColor = [UIColor colorWithRed:245/255.0 green:186/255.0 blue:186/255.0 alpha:0.5];
         //_textColor = [UIColor colorWithRed:128/255.0 green:126/255.0 blue:124/255.0 alpha:1.0];
         _textColor = [UIColor colorWithRed:255/255.0 green:255/255.0 blue:255/255.0 alpha:1.0];
         _textShadowColor = [UIColor blackColor];
